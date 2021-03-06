@@ -697,7 +697,7 @@ img {
 
 .modal-accept-input:checked + .modal-figure {
   background-color: #2196F3;
-  background-image: url("./../../imeges/icon/check.svg");
+  background-image: url("../../imeges/icon/check.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
