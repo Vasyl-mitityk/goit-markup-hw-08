@@ -122,8 +122,8 @@
     }
   
     @media screen and (min-width: 1200px) {
-      font-size: 14px;
-      line-height: 1.714;
+      @include font(14px, 400, 24px);
+      
     }
   }
 

@@ -48,26 +48,30 @@
             }
     }
 
-   
-
-    
-
-    &-form-title {
+    &-subtitle {
       
         font-weight: 700;
         font-size: 14px;
-        line-height: 1, 143;
+        line-height: 1,143;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: $color-main;
         margin-bottom: 20px;
       }
+
+   
+
     
+
+   
 
    
 }
 
-.footer-form-mail {
+ 
+
+
+.footer-form-input {
     width: 100%;
     height: 50px;
     background-color: transparent;
@@ -91,13 +95,13 @@
       margin-bottom: 0;
       margin-right: 12px;
     }
-}
+  }
   .footer-form-icon {
     width: 100%;
     height: 100%;
     fill: $color-main;
   }
-  .footer-form {
+  .footer-form-container {
     @media screen and (min-width: 1200px) {
       display: flex;
       justify-content: center;
@@ -110,10 +114,12 @@
     margin-left: 10px;
   }
 
+ 
 
 
 
-.footer-form-btn {
+
+.web-button {
     background-color: $color-accent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -122,9 +128,7 @@
     width: 200px;
     height: 50px;
     color: $color-main;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
+    @include font(16px, 700, 30px);
     letter-spacing: 0.06em;
     padding: 10px 20px;
     cursor: pointer;
@@ -179,10 +183,6 @@
 
 }
  
- .social-list-icon {
-    fill: $color-main;
-    
-}
 
 
 

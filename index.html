@@ -345,7 +345,7 @@
                 <source srcset="./imeges/team/olgamobile@1x.jpg 1x, ./imeges/team/olgamobile@2x.jpg 2x" media="(min-width: 480px)">
                   <source srcset="./imeges/team/olgatablet@1x.jpg 1x, ./imeges/team/olgatablet@2x.jpg 2x" media="(min-width: 768px)">
                       <source srcset="./imeges/team/olgadecktop@1x.jpg 1x, ./imeges/team/olgadecktop@1x.jpg 2x" media="(min-width: 1200px)">
-                           <img class="section-team-img" src="./imeges/team/olgamobile@1x.jpg.jpg."  alt="Ольга Репина"   width="450"/>
+                           <img class="section-team-img" src="./imeges/team/olgamobile@1x.jpg"  alt="Ольга Репина"   width="450"/>
                 </picture>
               <div class="team-name-title">
                 <h3 class="team-name">Ольга Репина</h3>
@@ -597,23 +597,16 @@
           </ul>
         </div>
 
-        <form action="#" class="footer-form">
-          <p class="footer-form-title">Подпишитесь на рассылку</p>
-          <input
-            type="email"
-            name="user-email"
-            class="footer-form-mail"
-            placeholder="E-mail"
-          />
-          <button type="submit" class="footer-form-btn">
-            Подписаться
-            <span class=".footer-form-label">
-            <svg class="footer-form-icon">
-              <use href="./imeges/sprite.svg#icon-send"></use>
-            </svg>
-          </span>
-          </button>
-        </form>
+        <div class="footer-form">
+          <h3 class="footer-subtitle">Подпишитесь на рассылку</h3>
+          <form class="footer-form-container">
+              <input type="email" placeholder="E-mail" name="mail" class="footer-form-input">
+              <button type="submit" class="web-button">Подписаться <span class="footer-form-label">
+                      <svg class="footer-form-icon">
+                          <use href="./imeges/sprite.svg#icon-send"></use>
+                      </svg>
+                  </span></button>
+          </form>
       </div>
     </footer>
 
