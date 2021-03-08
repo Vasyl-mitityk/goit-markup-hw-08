@@ -79,7 +79,7 @@
     color: $color-title;
     margin-bottom: 10px;
     @media screen and (min-width: 1200px) {
-      line-height: 1.15;
+      @include font(20px, 700, 30px);
     }
   }
 
@@ -103,14 +103,19 @@
     margin-bottom: 20px;
   }
 
-  .wrapper--accept {
+  .wrapper-accept {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
   }
 
   .wrapper-individual {
+    display: flex;
+    margin-bottom: 30px;
+    
+  }
 
+  .modal-label {
     @include font(12px, 400, 14px);
     letter-spacing: 0.03em;
     color: $color-text;
@@ -125,6 +130,7 @@
       @include font(14px, 400, 24px);
       
     }
+    
   }
 
   .modal-link-requirements {
@@ -135,7 +141,7 @@
 
   .modal-figure {
     display: inline-block;
-    width: 16px;
+    min-width: 16px;
     height: 16px;
     border: 2px solid $color-title;
     border-radius: 2px;
@@ -206,11 +212,7 @@
     }
   }
 
-  .modal-label {
-    display: flex;
-    line-height: 1.156;
-    margin-bottom: 30px;
-  }
+  
 
 
   .modal-close {
